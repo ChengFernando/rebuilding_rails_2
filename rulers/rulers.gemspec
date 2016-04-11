@@ -30,5 +30,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "rake", "~> 10.0"
   gem.add_development_dependency "minitest", "~> 5.0"
 
-  gem .add_runtime_dependency "rack" 
+  gem.add_runtime_dependency "rack" 
+  gem.add_development_dependency "rack-test"
+  gem.add_development_dependency "test-unit"
 end
