@@ -1,5 +1,9 @@
 require "rulers/version"
 
 module Rulers
-  # Your code goes here...
+  class Application
+    def call(env)
+    [200, {'Contetn-Type' => 'text/html'}, ["Hello World!"]]
+    end
+  end
 end
